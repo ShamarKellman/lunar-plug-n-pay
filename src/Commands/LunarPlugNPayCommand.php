@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace ShamarKellman\LunarPlugNPay\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LunarPlugNPayCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'lunar-plug-n-pay';
 
     public $description = 'My command';
 

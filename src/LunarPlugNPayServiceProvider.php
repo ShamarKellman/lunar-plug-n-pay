@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton;
+namespace ShamarKellman\LunarPlugNPay;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use VendorName\Skeleton\Commands\SkeletonCommand;
+use ShamarKellman\LunarPlugNPay\Commands\LunarPlugNPayCommand;
 
-class SkeletonServiceProvider extends PackageServiceProvider
+class LunarPlugNPayServiceProvider extends PackageServiceProvider
 {
     public function configurePackage(Package $package): void
     {
@@ -16,10 +16,10 @@ class SkeletonServiceProvider extends PackageServiceProvider
          * More info: https://github.com/spatie/laravel-package-tools
          */
         $package
-            ->name('skeleton')
+            ->name('lunar-plug-n-pay')
             ->hasConfigFile()
             ->hasViews()
-            ->hasMigration('create_migration_table_name_table')
-            ->hasCommand(SkeletonCommand::class);
+            ->hasMigration('create_lunar_plug_n_pay_table')
+            ->hasCommand(LunarPlugNPayCommand::class);
     }
 }
