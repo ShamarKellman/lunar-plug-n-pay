@@ -2,9 +2,9 @@
 
 namespace ShamarKellman\LunarPlugNPay;
 
+use ShamarKellman\LunarPlugNPay\Commands\LunarPlugNPayCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use ShamarKellman\LunarPlugNPay\Commands\LunarPlugNPayCommand;
 
 class LunarPlugNPayServiceProvider extends PackageServiceProvider
 {
